@@ -3,8 +3,8 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 using Inedo.BuildMaster.Extensibility;
 
-[assembly: AssemblyTitle("YouTrack")]
-[assembly: AssemblyDescription("Contains an issue tracking provider for JetBrains YouTrack.")]
+[assembly: AssemblyTitle("YouTrackLegacy")]
+[assembly: AssemblyDescription("Contains a legacy issue tracking provider for JetBrains YouTrack. The YouTrack extension is also required.")]
 
 [assembly: ComVisible(false)]
 [assembly: AssemblyCompany("Inedo, LLC")]

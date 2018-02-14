@@ -10,6 +10,7 @@ namespace Inedo.BuildMasterExtensions.YouTrack.Legacy
     [DisplayName("YouTrack")]
     [Description("Issue tracking provider for JetBrains YouTrack.")]
     [CustomEditor(typeof(YouTrackIssueTrackingProviderEditor))]
+    [PersistFrom("Inedo.BuildMasterExtensions.YouTrack.Legacy.YouTrackIssueTrackingProvider,YouTrack")]
     public sealed class YouTrackIssueTrackingProvider : IssueTrackingProviderBase, ICategoryFilterable, IUpdatingProvider
     {
         internal const string AnyProjectCategory = "any project";
